@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+/* Font-Presetvon Google APIs importiert */
+
+
+.opener{ /* Bildschirmschoner mit Homepagename wo eine Box um den Text erstellt wird */
+font-family: 'Roboto';
+font-size: 6rem;
+text-transform: uppercase;
+letter-spacing: 3px;
+border: 3px solid #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 4rem 8rem;
+
+}
+
+a:-webkit-any-link { /* Linkfarbe auf weiß setzen und unterstreichung entfernen */
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+*{ /* Universalselektor um Innen- sowie Aßenabstände auf 0 zu setzen */
+
+	margin: 0px;
+	padding: 0px;
+
+
+
+}
+
+.kopf{ /* Kopfzeile in der sich das Logo befindet */
+text-align: center;
+	border-top-right-radius: 3.8%;
+	border-top-left-radius: 3.8%;
+  background:#f5c900;
+  image-orientation: center;
+}
+
+
+
+
+
+body{ /* Hintergrund mit Farbverlauf */
+font-family: 'Titillium Web', sans-serif;
+	color: black;
+	background: linear-gradient(-50deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 350% 350%;
+	position: relative;
+	animation: change 7.6s ease-in-out infinite;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@keyframes change{ /* Hintergrundposition gekeyt und für Animationseffekt gesorgt */
+
+0%{
+	background-position: 0 50%;
+}
+50%{
+	background-position: 100% 50%;
+}
+100%{
+	background-position: 0 50%;
+}
+
+}
+
+.wrap{
+
+height: 1020px;
+width: 480px;
+//*border: 1px solid ;*// //* Sichtbarer Bereich auf dem Handy*//
+
+}
+
+#PlayerContent{
+float: right;
+display: inline;
+
+}
+
+
+
+#Gesamt {
+	border-top-right-radius: 3.8%;
+	border-top-left-radius: 3.8%;
+	border-bottom-right-radius: 3.8%;
+	border-bottom-left-radius: 3.8%;
+	width: 95%;
+	margin: 0px auto;
+	box-shadow: 3px 3px 3px black;
+  background: white;
+	color: black;
+}
+
+.inhalt {
+	border-top-right-radius: 3.8%;
+	border-top-left-radius: 3.8%;
+	border-bottom-right-radius: 3.8%;
+	border-bottom-left-radius: 3.8%;
+		color: black;
+		padding: 8%;
+}
+
+.pic{
+
+width: 10%;
+
+}
+
+h1{
+
+font-size: 15px;
+
+}
+
+.info{
+
+float: right;
+
+}
+
+button{ /* Button angepasst */
+
+	border: none;
+   color: white;
+   padding: 6px 13px;
+   font-size: 13px;
+   cursor: pointer;
+	 background-color: #f0c500;
+   border-top-right-radius: 9%;
+   border-top-left-radius: 9%;
+   border-bottom-right-radius: 9%;
+   border-bottom-left-radius: 9%;
+
+
+ }
+
+
+button:hover{
+
+background: #2e2e2e;
+
+}
+
+/* Hovereffekte für jegliche Spieler */
+.Player1 ul li  {
+	float: left;
+list-style: none;
+
+}
+
+.Player1 ul li a {
+
+width: 70px;
+height: 90px;
+display: block;
+background: url(img/henningsbw.jpg);
+cursor: unset; /* "Fingerzeigen" von Cursor entfernt */
+}
+
+
+.Player1 ul li a:hover{
+
+background: url(img/rouwen.jpg);
+cursor: unset;
+}
+
+.Player2 ul li  {
+	float: left;
+list-style: none;
+
+}
+
+.Player2 ul li a {
+
+width: 70px;
+height: 90px;
+display: block;
+background: url(img/messiSW.jpg);
+cursor: unset;
+}
+
+
+.Player2 ul li a:hover{
+
+background: url(img/Lionel.jpg);
+cursor: unset;
+}
+
+.Player3 ul li  {
+	float: left;
+list-style: none;
+
+}
+
+.Player3 ul li a {
+
+width: 70px;
+height: 90px;
+display: block;
+background: url(img/crissiSW.jpg);
+cursor: unset;
+}
+
+
+.Player3 ul li a:hover{
+
+background: url(img/Crissi.jpg);
+cursor: unset;
+}
+
+
+.Player4 ul li  {
+	float: left;
+list-style: none;
+
+}
+
+.Player4 ul li a {
+
+width: 70px;
+height: 90px;
+display: block;
+background: url(img/SaneSW.jpg);
+cursor: unset;
+
+}
+
+
+.Player4 ul li a:hover{
+
+background: url(img/Sane.jpg);
+cursor: unset;
+
+}
+
+.Player5 ul li  {
+	float: left;
+list-style: none;
+
+}
+
+.Player5 ul li a {
+
+width: 70px;
+height: 90px;
+display: block;
+background: url(img/FKSW.jpg);
+cursor: unset;
+
+}
+
+
+.Player5 ul li a:hover{
+
+background: url(img/FK.jpg);
+cursor: unset;
+
+}
+
+.Player6 ul li  {
+        	float: left;
+        list-style: none;
+
+      }
+
+.Player6 ul li a {
+
+        width: 70px;
+        height: 90px;
+        display: block;
+        background: url(img/MbappeSW.jpg);
+        cursor: unset;
+
+        }
+
+
+.Player6 ul li a:hover{
+          background: url(img/Mbappe.jpg);
+          cursor: unset;
+          }
+
+
+@media screen and (min-width: 500px){   /* Preset für Desktop */
+
+      h1{
+
+      font-size: 25px;
+
+      }
+
+      .wrap{
+
+        width: 700px;
+      }
+
+
+
+
+
+
+}
+
+@media print{ /*Druckvorlage*/
+
+      button{
+        display:none;
+      }
+
+      h1{
+        font-size: 12px;
+      }
+
+      }
