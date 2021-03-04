@@ -161,16 +161,12 @@ list-style: none;
 width: 70px;
 height: 90px;
 display: block;
-background: url(img/henningsbw.jpg);
+background: url(img/rouwen.jpg);
 cursor: unset; /* "Fingerzeigen" von Cursor entfernt */
 }
 
 
-.Player1 ul li a:hover{
 
-background: url(img/rouwen.jpg);
-cursor: unset;
-}
 
 .Player2 ul li  {
 	float: left;
@@ -183,16 +179,12 @@ list-style: none;
 width: 70px;
 height: 90px;
 display: block;
-background: url(img/messiSW.jpg);
-cursor: unset;
-}
-
-
-.Player2 ul li a:hover{
-
 background: url(img/Lionel.jpg);
 cursor: unset;
 }
+
+
+
 
 .Player3 ul li  {
 	float: left;
@@ -205,16 +197,11 @@ list-style: none;
 width: 70px;
 height: 90px;
 display: block;
-background: url(img/crissiSW.jpg);
-cursor: unset;
-}
-
-
-.Player3 ul li a:hover{
-
 background: url(img/Crissi.jpg);
 cursor: unset;
 }
+
+
 
 
 .Player4 ul li  {
@@ -228,18 +215,13 @@ list-style: none;
 width: 70px;
 height: 90px;
 display: block;
-background: url(img/SaneSW.jpg);
-cursor: unset;
-
-}
-
-
-.Player4 ul li a:hover{
-
 background: url(img/Sane.jpg);
 cursor: unset;
 
 }
+
+
+
 
 .Player5 ul li  {
 	float: left;
@@ -252,18 +234,12 @@ list-style: none;
 width: 70px;
 height: 90px;
 display: block;
-background: url(img/FKSW.jpg);
-cursor: unset;
-
-}
-
-
-.Player5 ul li a:hover{
-
 background: url(img/FK.jpg);
 cursor: unset;
 
 }
+
+
 
 .Player6 ul li  {
         	float: left;
@@ -276,16 +252,12 @@ cursor: unset;
         width: 70px;
         height: 90px;
         display: block;
-        background: url(img/MbappeSW.jpg);
+        background: url(img/Mbappe.jpg);
         cursor: unset;
 
         }
 
 
-.Player6 ul li a:hover{
-          background: url(img/Mbappe.jpg);
-          cursor: unset;
-          }
 
 
 @media screen and (min-width: 500px){   /* Preset für Desktop */
@@ -301,6 +273,142 @@ cursor: unset;
         width: 700px;
       }
 
+      .Player1 ul li  {
+      	float: left;
+      list-style: none;
+
+      }
+
+      .Player1 ul li a {
+
+      width: 70px;
+      height: 90px;
+      display: block;
+      background: url(img/henningsbw.jpg);
+      cursor: unset; /* "Fingerzeigen" von Cursor entfernt */
+      }
+
+
+      .Player1 ul li a:hover{
+
+      background: url(img/rouwen.jpg);
+      cursor: unset;
+      }
+
+      .Player2 ul li  {
+      	float: left;
+      list-style: none;
+
+      }
+
+      .Player2 ul li a {
+
+      width: 70px;
+      height: 90px;
+      display: block;
+      background: url(img/messiSW.jpg);
+      cursor: unset;
+      }
+
+
+      .Player2 ul li a:hover{
+
+      background: url(img/Lionel.jpg);
+      cursor: unset;
+      }
+
+      .Player3 ul li  {
+      	float: left;
+      list-style: none;
+
+      }
+
+      .Player3 ul li a {
+
+      width: 70px;
+      height: 90px;
+      display: block;
+      background: url(img/crissiSW.jpg);
+      cursor: unset;
+      }
+
+
+      .Player3 ul li a:hover{
+
+      background: url(img/Crissi.jpg);
+      cursor: unset;
+      }
+
+
+      .Player4 ul li  {
+      	float: left;
+      list-style: none;
+
+      }
+
+      .Player4 ul li a {
+
+      width: 70px;
+      height: 90px;
+      display: block;
+      background: url(img/SaneSW.jpg);
+      cursor: unset;
+
+      }
+
+
+      .Player4 ul li a:hover{
+
+      background: url(img/Sane.jpg);
+      cursor: unset;
+
+      }
+
+      .Player5 ul li  {
+      	float: left;
+      list-style: none;
+
+      }
+
+      .Player5 ul li a {
+
+      width: 70px;
+      height: 90px;
+      display: block;
+      background: url(img/FKSW.jpg);
+      cursor: unset;
+
+      }
+
+
+      .Player5 ul li a:hover{
+
+      background: url(img/FK.jpg);
+      cursor: unset;
+
+      }
+
+      .Player6 ul li  {
+              	float: left;
+              list-style: none;
+
+            }
+
+      .Player6 ul li a {
+
+              width: 70px;
+              height: 90px;
+              display: block;
+              background: url(img/MbappeSW.jpg);
+              cursor: unset;
+
+              }
+
+
+      .Player6 ul li a:hover{
+                background: url(img/Mbappe.jpg);
+                cursor: unset;
+                }
 
 
 
